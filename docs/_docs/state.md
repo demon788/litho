@@ -141,7 +141,7 @@ public class CheckboxSpec {
             ? R.drawable.is_checked
             : R.drawable.is_unchecked))
         .clickHandler(Checkbox.onCheckboxClicked(c)))
-    .build;
+    .build();
   }
 
   @OnUpdateState
